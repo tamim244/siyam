@@ -1,0 +1,257 @@
+*{ 
+    margin :0px;
+    padding :0px;
+}
+.f{
+    background-color :#e0d9d9;
+}
+.fa {
+    background-color: white;
+    font-family: Arial black;
+    box-shadow: 2PX 2PX 4PX 2PX #b7adad;
+}
+.f1{ height:40px;
+     width:40px;
+     border-radius:60px;
+     margin:0px 30px ;
+}
+.f2{
+    font-weight:bold ;
+    font-size:30px;
+    color:#00ff21;
+}
+.f3 {
+    margin: 0px 0px 0px 500px;
+    color: coral;
+}
+.f4,.f5,.f6{
+    margin :30px;
+    
+}
+    .f3:hover, .f4:hover, .f5:hover, .f6:hover {
+        color: #00d5a4;
+     
+    }
+
+
+    .fb {
+        background-color: tomato;
+        background-image: url("siyam1.jpeg");
+        background-repeat: no-repeat;
+        background-size: 1570px 900px;
+        height: 700px;
+        width: 1570px;
+        margin: 20px;
+        box-shadow: 2PX 2PX 4PX 2PX #b7adad;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+
+.fb0 {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: 200px;
+    top: 100px; 
+    margin:20px
+}
+.fb1 {margin :5px;
+    color: #00d5a4;
+    font-size: 30px;
+    font-family: Arial black;
+}
+.fb2,.fc2 {margin :5px;
+    color: tomato;
+    font-size: 30px;
+    font-family: Arial black;
+}
+.fb3{
+    font-size:20px;
+    font-family: Arial black;
+   color :white ;
+  background-color:tomato ;
+  padding :5px;
+  margin:5px;
+  border-radius:8px;
+  border-color:#00ffff;
+}
+.fb4,.fc4,.fd6, .fd7,.fd4{
+    font-size: 20px;
+    font-family: Arial black;
+    color: white;
+    background-color: #00d5a4;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    border-color:#00ffff;
+}
+.fb3:hover,.fb4:hover,.fc4:hover{
+box-shadow:2px 2px 4px 2px tomato;
+}
+.fb5 { 
+    color: #00d5a4;
+    background-color: tomato;
+    font-size: 30px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 5px 5px #ffd800;
+    font-family: Arial biack;
+    font-weight: bold;
+    animation-name: fanush;
+    animation-duration: 10s;
+    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes fanush{
+    0% {
+        height: 30px;
+        background-color: tomato;
+        box-shadow: 2px 2px 4px 2px #ffd800;
+        margin-left: 0px;
+        border-radius: 0px;
+   
+  
+
+}
+    30% {
+        margin-left: 0px;
+        height: 30px;
+        background-color: #ffd800;
+        box-shadow: 3px 3px 5px 5px tomato;
+        border-radius: 30px;
+    }
+
+    75% {
+        height: 30px;
+        background-color: #ffd800;
+        box-shadow: 3px 3px 5px 5px tomato; 
+        margin-left:600px;
+        border-radius:30px;
+    }
+
+    100% {
+        height: 30px;
+        background-color:tomato  ;
+        box-shadow: 3px 3px 5px 5px #ffd800 ;
+        margin-left: 600px;
+        border-radius: 0px;
+    }
+
+}
+
+
+
+
+
+
+.fc {
+    box-shadow: 3PX 3PX 5PX 3PX #b7adad;
+    padding: 80px 100px;
+    height: 380px;
+    width: 1200px;
+    background-color: white;
+    margin:20px 100px;
+    position: revert;
+}
+.fc01 {
+    box-shadow: 3PX 3PX 10PX 5PX #b7adad;
+    position: absolute;
+    margin: 20px 100px;
+}
+
+
+.fc1{
+    width :450px
+}
+.fc02 {
+    width: 450px;
+    position: absolute;
+    margin: 20px 100px;
+    left: 800px;
+}
+.fc03 {
+    width: 440px;
+    height: 488px;
+    position: absolute;
+    background-color: tomato;
+    left: 98px;
+    top: 812px;
+}
+.fcc1 {
+    width: 440px;
+    height: 488px;
+    position: absolute;
+    background-color: tomato;
+    left: 98px;
+    top: 2590px;
+}
+
+
+
+.fd {position:relative ;
+    width: 1580px;
+  background-color:black ;
+    height: 1200px;
+}
+
+.fd01 {
+    width: 1580px;
+    position:absolute ;
+   
+}
+
+img.fd1 {
+    width: 1580px;
+    opacity: 0.5;
+    height: 800px;
+}
+.fd02, .fd03, .fd04 {
+    height: 560px;
+    transform: rotateZ(7deg);
+    width:444px;
+    position: absolute;
+    border-radius: 15px
+}
+.fd02 {
+    left: 150px;
+    top: 500px;
+    background-color: #ffffff;
+}
+.fd03 {
+    left: 594px;
+    top: 500px;
+    background-color: #33385e;
+}
+.fd04 {
+    left: 1038px;
+    background-color: #ffffff;
+    top: 500px;
+}
+.fd2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 51px 38px 0px 120px
+}
+.fd3{
+    width:80px;
+    height:80px;
+    border-radius:50px;
+  
+}
+p.fd5 {
+    font-size: 14px;
+    padding: 50px;
+    font-family:'Comic Sans MS';
+    color:#33385e
+}
+.fd6, .fd7, .fd4{text-align :center ;
+                margin :5px;
+}
+.fd8 {
+    font-size: 14px;
+    padding: 50px;
+    font-family: 'Comic Sans MS';
+    color :white ;
+}
